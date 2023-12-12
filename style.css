@@ -1,0 +1,68 @@
+.txtFont{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inputDsgn{
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 30px;
+    transition: all linear 0.25s;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.inputDsgn:focus{
+    background-color: rgb(250, 250, 250)
+}
+
+.centered{
+    margin: 2.5% 0% 2.5% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inserted{
+    margin: 1% 0% 1% 0%;
+    width: 35%;
+    border-radius: 5px;
+    background-color: rgb(99, 99, 99);
+    text-align: center;
+}
+
+.nmDsgn{
+    width: 50%;
+    margin: 1% 25% 1% 25%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    border-radius: 5px;
+}
+
+.halfed{
+    width: 45%;
+    font-weight: bolder;
+}
+
+body{
+    background-image: url(https://assets.turbologo.com/blog/pt/2021/09/22055928/bands_logos.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+h3{
+    color: rgb(255, 0, 242) ;
+}
+
+h2{
+    color: rgb(199, 41, 30) ;
+    font-size: 40px;
+}
+
+::placeholder{
+    color: rgb(250, 17, 17);
+}
+
